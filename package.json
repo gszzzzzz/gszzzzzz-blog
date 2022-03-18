@@ -1,0 +1,26 @@
+{
+  "name": "gszzzzzz-blog",
+  "description": "A personal blog for engineering, music, and other random stuffs.",
+  "author": "gszzzzzz",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "gatsby": "^4.10.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.13",
+    "typescript": "^4.6.2"
+  }
+}
