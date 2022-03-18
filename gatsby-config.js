@@ -1,8 +1,8 @@
 /** @type {import('gatsby').GatsbyConfig} */
 module.exports = {
+  plugins: ["gatsby-plugin-postcss"],
   siteMetadata: {
-    title: ``,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: "Cha Gyuseok (gszzzzzz)",
+    siteUrl: "https://gszzzzzz.com",
   },
-  plugins: [],
 };
