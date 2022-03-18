@@ -1,11 +1,10 @@
 import * as React from "react";
-
 import { graphql, useStaticQuery } from "gatsby";
 import { Helmet } from "react-helmet";
 
 export default function PageMeta() {
-  let { site } = useStaticQuery(query);
-  let { title, description, siteUrl } = site.siteMetadata;
+  const { site } = useStaticQuery(query);
+  const { title, description, siteUrl } = site.siteMetadata;
 
   return (
     <Helmet title={title}>

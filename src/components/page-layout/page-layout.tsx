@@ -1,5 +1,4 @@
 import * as React from "react";
-
 import PageMeta from "../page-meta/page-meta";
 import Header from "../header/header";
 
@@ -9,7 +8,7 @@ interface PageLayoutProps {
 
 export default function PageLayout({ children }: PageLayoutProps) {
   return (
-    <div className="max-w-container mx-auto antialiased">
+    <div className="max-w-container mx-auto px-4 antialiased">
       <PageMeta />
       <Header />
       <main>{children}</main>
